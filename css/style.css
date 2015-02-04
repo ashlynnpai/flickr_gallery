@@ -1,0 +1,72 @@
+html {
+    font-family: 'Droid Sans', sans-serif;
+    color:  #F5EBCD;
+    background: #53575d; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #53575d 0%, #141414 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#53575d), color-stop(100%,#141414)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #53575d 0%,#141414 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #53575d 0%,#141414 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #53575d 0%,#141414 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #53575d 0%,#141414 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53575d', endColorstr='#141414',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.wrapper, #flickr {
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+img {
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    width: 240px;
+    height: 200px;
+    border: 5px solid #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    width: 100px;
+    height: 60px;
+    margin: 20px 0;
+    font-family: 'Droid Sans', sans-serif;
+    border-radius: 5px;
+    border: 5px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #F5EBCD;
+}
+
+.button:hover {
+    background-color: #D2603D; 
+}
+
+a {
+    text-decoration: none;
+    color:  #F5EBCD;
+}
+
+.htext {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.htext h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+
+
